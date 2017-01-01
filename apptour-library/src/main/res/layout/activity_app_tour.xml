@@ -28,7 +28,7 @@
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:layout_marginLeft="7dp"
-            android:background="?android:attr/selectableItemBackground"
+            android:background="@android:color/transparent"
             android:text="@string/appTourSkipButton" />
 
         <ImageButton
@@ -39,7 +39,7 @@
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:layout_marginRight="7dp"
-            android:background="?android:attr/selectableItemBackground"
+            android:background="@android:color/transparent"
             android:src="@drawable/ic_next_black_24dp"/>
 
         <Button
@@ -49,7 +49,7 @@
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:layout_marginRight="7dp"
-            android:background="?android:attr/selectableItemBackground"
+            android:background="@android:color/transparent"
             android:text="@string/appTourDoneButton"
             android:visibility="invisible" />
 
